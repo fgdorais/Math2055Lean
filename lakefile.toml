@@ -8,14 +8,21 @@ pp.funBinderTypes = true
 
 [[require]]
 name = "mathlib"
-git = "https://github.com/leanprover-community/mathlib4.git"
+scope = "leanprover-community"
 rev = "v4.14.0"
 
 [[lean_lib]]
 name = "HTPILib"
-moreLeanArgs = ["-Dlinter.unusedVariables=false",
-  "-Dlinter.unusedTactic=false", "-Dpp.funBinderTypes=true"]
+moreLeanArgs = [
+  "-Dlinter.unusedVariables=false",
+  "-Dlinter.unusedTactic=false",
+  "-Dpp.funBinderTypes=true",
+]
 
 [[lean_lib]]
-name = "StudentWork"
-roots = ["Blank", "Chap3Ex", "Chap4Ex", "Chap5Ex", "Chap6Ex", "Chap7Ex", "Chap8Ex"]
+name = "MyWork"
+moreLeanArgs = [
+  "-Dlinter.unusedVariables=false",
+  "-Dlinter.unusedTactic=false",
+  "-Dpp.funBinderTypes=true",
+]
