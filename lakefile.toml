@@ -20,6 +20,14 @@ moreLeanArgs = [
 ]
 
 [[lean_lib]]
+name = "HTPIEx"
+moreLeanArgs = [
+  "-Dlinter.unusedVariables=false",
+  "-Dlinter.unusedTactic=false",
+  "-Dpp.funBinderTypes=true",
+]
+
+[[lean_lib]]
 name = "MyWork"
 moreLeanArgs = [
   "-Dlinter.unusedVariables=false",
