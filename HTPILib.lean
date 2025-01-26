@@ -7,3 +7,5 @@ import HTPILib.Chap8Part1
 import HTPILib.Chap6
 import HTPILib.Chap7
 import HTPILib.Chap8Part2
+import HTPILib.TruthGame
+import HTPILib.TruthTable
